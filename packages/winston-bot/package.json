@@ -1,0 +1,14 @@
+{
+  "name": "@winston/bot",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/index.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
+}
