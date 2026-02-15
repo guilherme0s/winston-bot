@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/index.ts",
+    "start": "tsx --env-file=.env src/index.ts",
+    "typecheck": "tsc",
+    "lint": "biome check",
+    "format": "biome format --write"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@10.28.2"
+}
